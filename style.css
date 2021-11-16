@@ -1,0 +1,77 @@
+body{
+  text-align:center;
+  width: 100%;
+}
+.menuBar .list .menu a{
+    text-decoration:none;
+    color: rgb(4, 4, 4);
+    font-size: 20px;
+}
+.menuBar .list .menu{
+    display:inline;
+    padding:13px;
+    
+}
+.topMenuSection{
+    margin:0 0 50px;
+}
+.menuBar{
+    background-color: rgb(119, 251, 104);
+    padding:20px;
+}
+.menuBar .list .menu a::after{
+    content:"|";
+    margin-left: 23px;
+    color: seagreen;
+}
+.myImg img{
+    border-radius:100%;
+    border:15px solid greenyellow;
+    border-style:ridge;
+    height:500px;
+    width:500px;
+}
+.name h1{
+    font-family:monospace;
+    font-size:29px;
+}
+#hi h2{
+    color: darkolivegreen;
+}
+.favSection{
+    text-align:center;
+    text-decoration: underline overline rgb(185, 247, 182);
+
+}
+.favPlaces .placesToGo, .favSports .sports, .favGames .game{
+    list-style:none;
+}
+.column {
+    float: left;
+    width: 30.33%;
+    padding: 10px;
+    height: 250px;
+  }
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .para{
+      background-color: #D5D1D1;
+      padding: 30px;
+  }
+  .row{
+    background-color:#b8adad;
+    margin-top: 30px;
+  }
+  .myIframe{
+      margin-top:30px;
+  }
+  iframe{
+      border-radius:30px;
+  }
+  .footer{
+      margin-top:50px;
+  }
+
